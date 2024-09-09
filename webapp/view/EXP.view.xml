@@ -1,0 +1,16 @@
+<mvc:View controllerName="exp.controller.EXP"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <Label text="UserName:" labelFor="uname"/>
+        <Input placeholder="Enter Username:" id="uname"/>
+        <Label text="Password:" labelFor="pword"/>
+        <Input type="Password" placeholder="Enter Password:" id="pword" />
+        <Button text="clear" press="onFree"/>
+        <Button text="Login" press="onNext"/>
+        <ToolbarSpacer/>
+        <Button text="Register" press="onRegis"/>
+        </content>
+    </Page>
+</mvc:View>

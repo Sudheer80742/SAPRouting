@@ -1,0 +1,9 @@
+<mvc:View controllerName="exp.controller.ERP"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="erp">
+        <content>
+        <Button text="LogOut" press="onBack"/>
+        </content>
+    </Page>
+</mvc:View>
